@@ -1,5 +1,5 @@
 # VisualizingRobotConsepts
-This repo. was made to visualize robot consepts like Kinomatics and ROS.
+This repo. was made to visualize robot consepts like Kinematics and ROS.
 
 I'd like to use ROS2 as it is more matire at this pointand it is available on Ubuntu, Windows, and MacOS, whereas ROS1 is only available on Ubuntu.
 This will make it easier for students to use.
