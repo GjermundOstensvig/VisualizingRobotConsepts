@@ -6,3 +6,18 @@ This will make it easier for students to use.
 The distro. of ROS2 I plan to use is [Humble Hawksbill](https://docs.ros.org/en/humble/index.html).
 For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is because Humble Hawksbill is only supportedon Windows 10, and I have Windows 11. In the future I might consider making a docker container that can run my code on any OS.
 I'll be using rviz for the visualtzation, and the python programming language.
+
+## How to use on Ubuntu
+- Install the ROS2 Humble Hawksbill distrobution globally following [this guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html). 
+- Clone this git repo
+
+`git clone https://github.com/GjermundOstensvig/VisualizingRobotConsepts.git`
+- Go to your barhrc file
+
+`gedit ~/.bashrc`
+- Setup your sources by atting the following lines at the bottom of the file, save and exit:
+```
+source /opt/ros/humble/setup.bash # For ros humble environment
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash # For autocompleting colcon options
+source ~/VisualizingRobotConsepts/ros2_ws/install/setup.bash # For my custom ros overlay
+```
