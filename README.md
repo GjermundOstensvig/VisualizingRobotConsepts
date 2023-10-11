@@ -7,7 +7,7 @@ The distro. of ROS2 I plan to use is [Iron Irwini](https://docs.ros.org/en/iron/
 For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is because Iron Irwini is only supported on Windows 10, and I have Windows 11. In the future I might consider making a docker container that can run my code on any OS.
 I'll be using rviz for the visualtzation, and the python programming language.
 
-## How to use on Ubuntu 22.04 
+## How to install on Ubuntu 22.04 
 - Install the ROS2 Iron Irwini distrobution globally following [this guide](https://docs.ros.org/en/iron/Installation.html). 
 
 **_NOTE:_**  Please use the Debian package installation using `apt` instead of building from source, or installing from downloaded binary. The following steps for sourcing your environment will fail if you got this wrong. 
@@ -35,3 +35,14 @@ Running the following will let you know that your ROS distro was installed in th
 ls /opt/ros
 ```
 You should expect to see the names of all installed ros distros. In my case that's `humble` and `iron`.
+
+## How to build 
+
+The following commands should create three new folders in addition to `src` called `build`, `install`, and  `log`.
+```
+cd VisualizingRobotConsepts/ros2_ws/
+```
+
+```
+colcon build
+```
