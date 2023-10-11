@@ -13,7 +13,7 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='jenandg',
+    maintainer='gjermund',
     maintainer_email='gjermund1995@gmail.com',
     description='TODO: Package description',
     license='MIT',

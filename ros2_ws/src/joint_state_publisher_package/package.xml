@@ -4,7 +4,7 @@
   <name>joint_state_publisher_package</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="gjermund1995@gmail.com">jenandg</maintainer>
+  <maintainer email="gjermund1995@gmail.com">gjermund</maintainer>
   <license>MIT</license>
 
   <test_depend>ament_copyright</test_depend>
