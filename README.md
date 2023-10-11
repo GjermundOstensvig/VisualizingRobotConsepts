@@ -1,23 +1,36 @@
 # VisualizingRobotConsepts
 This repo. was made to visualize robot consepts like Kinematics and ROS.
 
-I'd like to use ROS2 as it is more mature at this pointand and since it is available on Ubuntu, Windows, and MacOS, whereas ROS1 is only available on Ubuntu.
+I'd like to use ROS2 as it is more mature at this point and since it is available on Ubuntu, Windows, and MacOS, whereas ROS1 is only available on Ubuntu.
 This will make it easier for students to use.
 The distro. of ROS2 I plan to use is [Iron Irwini](https://docs.ros.org/en/iron/index.html).
-For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is because Humble Hawksbill is only supportedon Windows 10, and I have Windows 11. In the future I might consider making a docker container that can run my code on any OS.
+For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is because Iron Irwini is only supported on Windows 10, and I have Windows 11. In the future I might consider making a docker container that can run my code on any OS.
 I'll be using rviz for the visualtzation, and the python programming language.
 
 ## How to use on Ubuntu 22.04 
-- Install the ROS2 Humble Hawksbill distrobution globally following [this guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html). 
+- Install the ROS2 Iron Irwini distrobution globally following [this guide](https://docs.ros.org/en/iron/Installation.html). 
+
+**_NOTE:_**  Please use the Debian package installation using `apt` instead of building from source, or installing from downloaded binary. The following steps for sourcing your environment will fail if you got this wrong. 
+
 - Clone this git repo
 
-`git clone https://github.com/GjermundOstensvig/VisualizingRobotConsepts.git`
-- Go to your barhrc file
+```
+git clone https://github.com/GjermundOstensvig/VisualizingRobotConsepts.git
+``````
 
-`gedit ~/.bashrc`
-- Setup your sources by atting the following lines at the bottom of the file, save and exit:
+Setup your sources by running the following command. After you've run this, every time you start a new terminal, it will automatically souce the correct files. 
 ```
-source /opt/ros/humble/setup.bash # For ros humble environment
-source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash # For autocompleting colcon options
-source ~/VisualizingRobotConsepts/ros2_ws/install/setup.bash # For my custom ros overlay
+echo "source /opt/ros/iron/setup.bash # For ros2 iron environment" >> ~/.bashrc
 ```
+
+To check that you have the correct distro installed of ROS, and to se that you sourced the ROS environment properly you can run this:
+```
+printenv | grep -i ROS_DISTRO
+```
+you should expec to see `ROS_DISTRO=iron`
+
+Running the following will let you know that your ROS distro was installed in the correct loaction:
+```
+ls /opt/ros
+```
+You should expect to see the names of all installed ros distros. In my case that's `humble` and `iron`.
