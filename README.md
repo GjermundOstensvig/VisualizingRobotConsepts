@@ -20,7 +20,8 @@ git clone https://github.com/GjermundOstensvig/VisualizingRobotConsepts.git
 
 Setup your sources by running the following command. After you've run this, every time you start a new terminal, it will automatically souce the correct files. 
 ```
-echo "source /opt/ros/iron/setup.bash # For ros2 iron environment" >> ~/.bashrc
+echo "source /opt/ros/iron/setup.bash # For ros2 iron environment (underlay) 
+source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash # For autocompleting colcon options" >> ~/.bashrc
 ```
 
 To check that you have the correct distro installed of ROS, and to se that you sourced the ROS environment properly you can run this:
