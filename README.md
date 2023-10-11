@@ -55,3 +55,10 @@ To only build one package instead of all packages in the workspace, run:
 ```
 colcon build --packages-select <package_name>
 ```
+
+## Running the joint_state_publisher node
+
+After successfully building and sourcing the overlay, you can run the following to run the `joint_state_publisher` node:
+```
+ros2 run joint_state_publisher_package joint_state_publisher
+```
