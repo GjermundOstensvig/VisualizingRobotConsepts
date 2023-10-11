@@ -46,3 +46,7 @@ cd VisualizingRobotConsepts/ros2_ws/
 ```
 colcon build
 ```
+Once built, you can source your overlay:
+```
+echo "source ~/VisualizingRobotConsepts/ros2_ws/install/setup.bash # For my custom ros overlay" >> ~/.bashrc
+```
