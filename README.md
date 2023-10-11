@@ -50,3 +50,8 @@ Once built, you can source your overlay:
 ```
 echo "source ~/VisualizingRobotConsepts/ros2_ws/install/setup.bash # For my custom ros overlay" >> ~/.bashrc
 ```
+
+To only build one package instead of all packages in the workspace, run:
+```
+colcon build --packages-select <package_name>
+```
