@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'joint_state_publisher_package'
+package_name = 'my_joint_state_publisher_package'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'joint_state_publisher = joint_state_publisher_package.joint_state_publisher:main'
+            'my_joint_state_publisher = my_joint_state_publisher_package.my_joint_state_publisher:main'
         ],
     },
 )
