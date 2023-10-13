@@ -3,7 +3,7 @@
     <link name="">
         <visual>
             <geometry>
-                <mesh filename="package://robot_conseptc_viz_pkg/meshes/Base.dae">
+                <mesh filename="package://robot_conseptc_viz_pkg/meshes/base.dae">
             </geometry>
         </visual>
     </link>
