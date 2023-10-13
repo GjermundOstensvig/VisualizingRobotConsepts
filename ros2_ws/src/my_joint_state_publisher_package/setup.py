@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'my_joint_state_publisher_package'
+package_name = 'robot_consepts_viz_pkg'
 
 setup(
     name=package_name,
@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_joint_state_publisher = my_joint_state_publisher_package.my_joint_state_publisher:main'
+            'my_joint_state_publisher = robot_consepts_viz_pkg.my_joint_state_publisher:main'
         ],
     },
 )

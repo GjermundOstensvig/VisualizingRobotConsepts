@@ -60,5 +60,5 @@ colcon build --packages-select <package_name>
 
 After successfully building and sourcing the overlay, you can run the following to run the `my_joint_state_publisher` node:
 ```
-ros2 run my_joint_state_publisher_package my_joint_state_publisher
+ros2 run robot_consepts_viz_pkg my_joint_state_publisher
 ```
