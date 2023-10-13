@@ -6,6 +6,7 @@ This will make it easier for students to use.
 The distro. of ROS2 I plan to use is [Iron Irwini](https://docs.ros.org/en/iron/index.html).
 For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is because Iron Irwini is only supported on Windows 10, and I have Windows 11. In the future I might consider making a docker container that can run my code on any OS.
 I'll be using rviz for the visualtzation, and the python programming language.
+The original CAD files for the robot were designed by Haris Jasarevic. They were provided as `.iges` files and were converted to `.dae` files using FreeCad.
 
 ## How to install on Ubuntu 22.04 
 - Install the ROS2 Iron Irwini distrobution globally following [this guide](https://docs.ros.org/en/iron/Installation.html). 
