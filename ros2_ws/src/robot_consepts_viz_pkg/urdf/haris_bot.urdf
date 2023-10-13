@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<robot name="haris_bot">
+    <link name="">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_conseptc_viz_pkg/meshes/Base.dae">
+            </geometry>
+        </visual>
+    </link>
+</robot>
