@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <robot name="haris_bot">
-    <link name="">
+    <link name="base_link">
         <visual>
             <geometry>
                 <mesh filename="package://robot_conseptc_viz_pkg/meshes/base.dae">
