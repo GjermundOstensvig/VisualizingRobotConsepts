@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="haris_bot">
+<robot name="h_bot">
     <link name="base_link">
         <visual>
             <geometry>
