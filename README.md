@@ -57,9 +57,14 @@ To only build one package instead of all packages in the workspace, run:
 colcon build --packages-select <package_name>
 ```
 
-## Running the joint_state_publisher node
+## Running things
 
 After successfully building and sourcing the overlay, you can run the following to run the `my_joint_state_publisher` node:
 ```
 ros2 run robot_consepts_viz_pkg my_joint_state_publisher
+```
+
+To start the visualizer, run the following command:
+```
+ros2 run rviz2 rviz2
 ```
