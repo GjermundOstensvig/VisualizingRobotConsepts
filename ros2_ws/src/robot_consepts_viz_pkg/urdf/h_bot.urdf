@@ -4,7 +4,7 @@
         <visual>
             <geometry>
                 <cylinder length="0.6" radius="0.2"/>
-                <!-- <mesh filename="package://robot_conseptc_viz_pkg/meshes/base.dae"> -->
+                <!-- <mesh filename="package://robot_consepts_viz_pkg/meshes/base.dae"> -->
             </geometry>
         </visual>
     </link>
