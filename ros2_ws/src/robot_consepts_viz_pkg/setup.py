@@ -1,3 +1,4 @@
+from glob import glob
 from setuptools import find_packages, setup
 
 package_name = 'robot_consepts_viz_pkg'
@@ -10,6 +11,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' +  package_name + '/meshes/stl', glob(pathname='meshes/**/**/*.stl', recursive=True)),
+        ('share/' +  package_name + '/meshes/dae', glob(pathname='meshes/**/**/*.dae', recursive=True))
     ],
     install_requires=['setuptools'],
     zip_safe=True,

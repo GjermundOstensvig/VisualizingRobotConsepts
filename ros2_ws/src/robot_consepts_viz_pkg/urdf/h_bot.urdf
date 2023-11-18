@@ -3,8 +3,9 @@
     <link name="base_link">
         <visual>
             <geometry>
-                <cylinder length="0.6" radius="0.2"/>
-                <!-- <mesh filename="package://robot_consepts_viz_pkg/meshes/base.dae"/> -->
+                <!-- <cylinder length="0.6" radius="0.2"/> -->
+                <mesh filename="package://robot_consepts_viz_pkg/meshes/stl/base.stl"/>
+                <!-- <mesh filename="package://urdf_tutorial/meshes/l_finger.dae"/> -->
             </geometry>
         </visual>
     </link>
