@@ -7,4 +7,18 @@
             </geometry>
         </visual>
     </link>
+
+    <link name="link_1">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_consepts_viz_pkg/meshes/dae/joint1.dae"/>
+            </geometry>
+            <origin rpy="-1.5708 0 0" xyz="0 0 0.285"/>
+        </visual>
+    </link>
+
+    <joint name="joint_1" type="continuous">
+        <parent link="base_link"/>
+        <child link="link_1"/>
+    </joint>    
 </robot>
