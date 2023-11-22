@@ -64,6 +64,12 @@ After successfully building and sourcing the overlay, you can run the following 
 ros2 run robot_consepts_viz_pkg my_joint_state_publisher
 ```
 
+Launching rviz with the correct config file:
+```
+ros2 launch robot_consepts_viz_pkg h_bot_display.launch.py
+```
+
+
 To start the visualizer, run the following command:
 ```
 ros2 run rviz2 rviz2

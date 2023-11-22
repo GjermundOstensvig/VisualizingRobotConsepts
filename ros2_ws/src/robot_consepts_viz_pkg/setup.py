@@ -12,7 +12,8 @@ setup(
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
         ('share/' +  package_name + '/meshes/stl', glob(pathname='meshes/**/**/*.stl', recursive=True)),
-        ('share/' +  package_name + '/meshes/dae', glob(pathname='meshes/**/**/*.dae', recursive=True))
+        ('share/' +  package_name + '/meshes/dae', glob(pathname='meshes/**/**/*.dae', recursive=True)),
+        ('share/' + package_name + '/launch', ['launch/h_bot_display.launch.py'])
     ],
     install_requires=['setuptools'],
     zip_safe=True,
