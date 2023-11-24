@@ -13,7 +13,7 @@
             <geometry>
                 <mesh filename="package://robot_consepts_viz_pkg/meshes/dae/joint1.dae"/>
             </geometry>
-            <origin rpy="-1.5708 0 0" xyz="0 0 0.1425"/>
+            <origin rpy="${-pi/2} 0 0" xyz="0 0 0.1425"/>
         </visual>
     </link>
 
