@@ -8,6 +8,8 @@ For the first version, I'll program this using Ubuntu 22.04 (Jammy). This is bec
 I'll be using rviz for the visualtzation, and the python programming language.
 The original CAD files for the h_bot robot were designed by Haris Jasarevic. They were provided as `.iges` files and were converted using FreeCad.
 
+![alt text](images/robot_jsp.png)
+
 ## How to install on Ubuntu 22.04 
 - Install the ROS2 Iron Irwini distrobution globally following [this guide](https://docs.ros.org/en/iron/Installation.html). 
 
