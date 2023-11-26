@@ -66,7 +66,6 @@ ros2 run robot_consepts_viz_pkg my_joint_state_publisher
 
 Launching rviz with the correct config file:
 
-**_NOTE:_** The default arguments do not work at the moment, so we have to spell out the arguments like this.
 ```
 ros2 launch robot_consepts_viz_pkg h_bot_display.launch.py
 ```
