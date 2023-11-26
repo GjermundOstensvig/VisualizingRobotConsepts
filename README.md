@@ -15,7 +15,7 @@ The original CAD files for the h_bot robot were designed by Haris Jasarevic. The
 
 **_NOTE:_**  Please use the Debian package installation using `apt` instead of building from source, or installing from downloaded binary. The following steps for sourcing your environment will fail if you got this wrong. 
 
-- Clone this git repo
+- Clone this GitHub repo
 
 ```
 git clone https://github.com/GjermundOstensvig/VisualizingRobotConsepts.git
