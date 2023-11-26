@@ -74,5 +74,22 @@
         <limit lower="${-pi}" upper="${pi}" effort="1000.0" velocity="0.5"/>
         <origin rpy="${pi/2} 0 0" xyz="0 0 0.65"/>
         <axis xyz="0 1 0"/>
-    </joint>       
+    </joint>
+
+    <link name="link_5">
+        <visual>
+            <geometry>
+                <mesh filename="package://robot_consepts_viz_pkg/meshes/dae/joint5.dae"/>
+            </geometry>
+            <origin rpy="0 0 0" xyz="0 0 0"/>
+        </visual>
+    </link>
+    
+    <joint name="joint_5" type="revolute">
+        <parent link="link_4"/>
+        <child link="link_5"/>
+        <limit lower="${-pi}" upper="${pi}" effort="1000.0" velocity="0.5"/>
+        <origin rpy="${-pi/2} 0 0" xyz="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>           
 </robot>
