@@ -8,7 +8,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     package_path = FindPackageShare("robot_consepts_viz_pkg")
-    default_model_path = PathJoinSubstitution(["urdf", "h_bot.urdf.xacro"])
+    default_model_path = PathJoinSubstitution(["urdf", "h_bot.urdf"])
     default_rviz_config_path = PathJoinSubstitution(
         [package_path, "rviz", "my_rviz_config.rviz"]
     )
