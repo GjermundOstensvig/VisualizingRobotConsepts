@@ -14,7 +14,7 @@ setup(
         ('share/' +  package_name + '/meshes/stl', glob(pathname='meshes/**/**/*.stl', recursive=True)),
         ('share/' +  package_name + '/meshes/dae', glob(pathname='meshes/**/**/*.dae', recursive=True)),
         ('share/' + package_name + '/launch', ['launch/h_bot_display.launch.py']),
-        ('share/' + package_name + '/urdf', ['urdf/h_bot.urdf']),
+        ('share/' + package_name + '/urdf', ['urdf/h_bot.urdf.xacro']),
         ('share/' + package_name + '/rviz', ['rviz/my_rviz_config.rviz'])
     ],
     install_requires=['setuptools'],
