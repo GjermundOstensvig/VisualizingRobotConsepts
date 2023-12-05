@@ -78,3 +78,24 @@ To start the visualizer, run the following command:
 ```
 ros2 run rviz2 rviz2
 ```
+
+
+## Helpful commands
+
+**_NOTE:_** The examples below use the `/joint_state` topicn as an example topic, but any topic will do.
+
+
+See which topics that are active in your environment:
+```
+ros2 topic list
+```
+       
+See how many publishers and subscribers are connected to a topic:
+```
+ros2 topic info /joint_states
+```
+
+Print messages that are being sent on a topic:
+```
+ros2 topic echo /joint_states
+```
