@@ -76,7 +76,7 @@ ros2 launch robot_consepts_viz_pkg h_bot_display.launch.py
 
 To start the visualizer, run the following command:
 ```
-ros2 run rviz2 rviz2
+rviz2
 ```
 
 
