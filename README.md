@@ -82,7 +82,7 @@ rviz2
 
 ## Helpful commands
 
-**_NOTE:_** The examples below use the `/joint_state` topicn as an example topic, but any topic will do.
+**_NOTE:_** The examples below use the `/joint_state` topic as an example topic, but any topic will do.
 
 
 See which topics that are active in your environment:
