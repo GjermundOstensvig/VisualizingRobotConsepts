@@ -18,7 +18,10 @@ setup(
             "share/" + package_name + "/meshes/dae",
             glob(pathname="meshes/**/**/*.dae", recursive=True),
         ),
-        ("share/" + package_name + "/launch", ["launch/h_bot_gui.launch.py"]),
+        (
+            "share/" + package_name + "/launch",
+            glob(pathname="launch/**/*.launch.py", recursive=True),
+        ),
         ("share/" + package_name + "/urdf", ["urdf/h_bot.urdf"]),
         ("share/" + package_name + "/rviz", ["rviz/my_rviz_config.rviz"]),
     ],
